@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="shortcut icon" href="image/logotitle.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/product1.css">
+    <link rel="stylesheet" href="css/product1intro.css">
+    <link rel="stylesheet" href="css/backtotop.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/languagechange.css">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+    
+        .lightbody {
+        font-family: "Gill Sans", sans-serif;
+        background-color: #fdfdfd;
+        transition: all 0.5s;
+    }
+    .darkbody {
+        font-family: "Gill Sans", sans-serif;
+        background-color: #717171;
+        transition: all 0.5s;
+    }
+        .lightheader {
+        background-color: #ececec;
+        color: #fff;
+        padding: 0.1px;
+        text-align: center;
+        position: relative; 
+        transition: all 0.5s;
+        }
+        .darkheader {
+        background-color: #676767;
+        color: #fff;
+        padding: 0.1px;
+        text-align: center;
+        position: relative; 
+        transition: all 0.5s;
+        }
+
+    section {
+        padding: 0; 
+        margin: 0; 
+        border-radius: 0; 
+        overflow: hidden;   
+    }
+    h1, h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    .main-image1{
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        position: absolute;
+        left: 17%;
+        top: 0%;
+    }
+    .main-image2{
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        position: absolute;
+        left: 17%;
+        top: 0%;
+    }
+    .light-mainimg1{
+        opacity: 1;
+        transition: all 0.6s;
+    }
+    .dark-mainimg1{
+        opacity: 0;
+        transition: all 0.6s;
+    }
+    .light-mainimg2{
+        opacity: 0;
+        transition: all 0.6s;
+    }
+    .dark-mainimg2{
+        opacity: 1;
+        transition: all 0.6s;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #jiuji{
+        color:rgba(0,0,0,0);
+    }
+
+    .product-first-container{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 600px; 
+        width: 100%;
+        padding: 10px; 
+        overflow: hidden;
+        position: relative;
+    }
+    .light-firstcontainer{
+        background-color: #ececec; 
+        color: rgb(17, 17, 17);
+        transition: all 0.6s;
+    }
+    .dark-firstcontainer{
+        background-color: #676767; 
+        color: #ececec;
+        transition: all 0.4s;
+    }
+    .product-first-texttitle{
+        position: absolute; 
+        top: 31%; 
+        left: 21%;  
+        padding: 10px;
+    }
+    .product-first-text{
+        position: absolute; 
+        top: 48%; 
+        left: 21.67%;  
+    }
+    .product-section{
+        background-color: #e4e4e4;
+    }
+    .product-box1{
+        position: absolute;
+    }
+    </style>
+</head>
+
+<body id="body" class="body lightbody"> 
+
+    <header id="header" class="header lightheader">
+        <p style="color: #ececec;font-size: 0.1px;">1</p>
+    </header>
+
+    <nav id="navbar" class="navbar light-navbar">
+        <div class="menu-icon"><img src="image/1.png" alt=""></div>
+        <div class="switch2 sun2" id="switchmoon">
+            <img src="image/moon.png" alt="">
+        </div>
+        <div class="switch1 sun1" id="switchsun">
+            <img src="image/sun.png" alt="">
+        </div>
+        <div class="switch4 languagelight1" id="languagelight">
+            <img src="image/languagelight.png" alt="">
+        </div>
+        <div class="switch3 languagelight2" id="languagedark" onclick="changeLanguage()">
+            <img src="image/languagedark.png" alt="">
+        </div>
+    
+        <ul>
+            <li><a id="dropdownhome" class="dropdownhomeen" href="web.html#home"></a></li>
+        <li class="dropdown">
+            <a id="roboticarmproducts" class="roboticarmproductsen" href="web.html#robotic-location"></a>
+            <div id="dropdown-contentwhite" class="dropdown-contentwhite light-contentwhite">
+                <a href="product.html">Loki 1</a>
+                <a href="product.html">Thor</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a id="productshowcasevideos" class="productshowcasevideosen" href="product.html#video"></a>
+            <div id="dropdown-contentwhite2" class="dropdown-contentwhite2 light-contentwhite2">
+                <a href="product.html#video">Loki 1</a>
+                <a href="product.html#video">Thor</a>
+            </div>
+        </li>
+        <li><a id="designphilosophy" class="designphilosophyen" href="web.html#Design"></a></li>
+        <li><a id="aboutuslanguage" class="aboutuslanguageen" href="contect.html"></a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navUl = document.querySelector('nav ul');
+    
+        menuIcon.addEventListener('click', () => {
+            navUl.classList.toggle('open');
+        });
+        
+        window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        var nav = document.getElementById('navbar');
+        if (window.scrollY > header.clientHeight) {
+            nav.classList.add('fixed');
+        } else {
+            nav.classList.remove('fixed');
+        }
+    });
+    </script>
+
+    <div id="productfirstcontainer" class="product-first-container light-firstcontainer">
+        <div>
+            <div>
+                <img class="main-image1 light-mainimg1" id="mainimg1"  src="image/product1.jpg" alt="Image">
+            </div>
+            <div>
+                <img class="main-image2 light-mainimg2" id="mainimg2"  src="image/product12.jpg" alt="Image">
+            </div>
+            
+            <div>
+                <div class="product-first-texttitle">
+                    <p style="font-size: 50px;"><b>Loki 1</b></p>
+                </div>
+                <div class="product-first-text">
+                    <p id="intelligentroboticarm" class="intelligentroboticarmen"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="product1-container">
+            <div class="product1-img-container">
+                <img id="lightimageproducts1" class="product1-image-products1 light-imageproducts1" src="image/product1-1.jpg" alt="Image">
+            </div>
+            <div class="product1-img-container" >
+                <img id="lightimageproducts2" class="product1-image-products2 light-imageproducts2" src="image/product1-12.jpg" alt="Image">
+            </div>
+
+            <div id="product1text" class="product1-text light-product1text">
+                <p id="product1location" class="product1-location product1locationen"><b>Loki 1<br></b></p>
+                <p id="product1textlocation" class="product1-text-location product1textlocationen"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <video class="video-placeholder" id="video" src="image/car.mp4" type="video/mp4" poster="image/1yong.jpg" 
+        autoplay="autoplay" controls="controls" loop="-1">
+    </video> -->
+
+    <div class="product1intro-container">
+        <div class="product1intro-left-module1">
+            <video class="video-placeholder" id="video" muted="muted" src="image/car.mp4" type="video/mp4" poster="image/1yong.jpg" 
+                autoplay="autoplay" controls="controls" loop="-1">
+            </video>
+        </div>
+        <div id="product1introright1" class="product1intro-right-module1 light-product1introright1">
+            <p id="product1introtxttitle1" class="product1intro-txttitle product1introtxttitleen1"></p> 
+            <p id="product1introtxt11" class="product1intro-txt1 product1introtxten11"></p>
+            <p id="product1introtxt12" class="product1intro-txt product1introtxten12"></p>
+            <p>&nbsp;</p>
+            <p id="product1introtxt13" class="product1intro-txt1 product1introtxten13"></p>
+            <p id="product1introtxt14" class="product1intro-txt product1introtxten14"></p>
+            <p>&nbsp;</p>
+            <p id="product1introtxt15" class="product1intro-txt1 product1introtxten15"></p>
+            <p id="product1introtxt16" class="product1intro-txt product1introtxten16"></p>
+        </div>
+    </div>
+
+    <div class="product1intro-container2 ">
+        <div id="product1introleft2" class="product1intro-left-module2 light-product1introleft2">
+            <p id="product1introtxttitle2" class="product1intro-txttitle product1introtxttitleen2"></p> 
+            <p id="product1introtxt21" class="product1intro-txt product1introtxten21"></p>
+        </div>
+        <div id="product1introright2" class="product1intro-right-module2 light-product1introright2">
+            <p id="product1introtxttitle3" class="product1intro-txttitle product1introtxttitleen3"></p> 
+            <p id="product1introtxt31" class="product1intro-txt product1introtxten31"></p>
+        </div>
+    </div>
+
+    <div id="back-to-top" onclick="scrollToTop()">
+        <img src="image/backtotop.png" alt="">
+    </div>
+    
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    
+        window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() {
+                var button = document.getElementById("back-to-top");
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            }
+    </script>
+
+<section id="jiuji">
+    <h2>yincang</h2>
+</section>
+
+<footer id="footer" class="footer lightfooter">
+    
+    <div class="company-info">
+        <p id="footermechanicpioneer" class="footermechanicpioneeren"></p>
+    </div>
+    <hr class="hr1">
+    <div>
+        <img id="lightinfo1" class="image-info1 lightinfo1" src="image/logo-black.png" alt="Company Logo">
+    </div>
+    <div>
+        <img id="lightinfo2" class="image-info2 lightinfo2" src="image/logo.png" alt="Company Logo">
+    </div>
+    <div class="contact-info">
+        <p id="footercompanyemail" class="footercompanyemailen"></p>
+        <p style="font-size: 14px;">13mp@mechanicPioneer.com</p>
+        <p id="footercompanyphone" class="footercompanyphoneen"></p>
+        <p style="font-size: 14px;">+86 110 120 4321</p>
+    </div>
+    <hr class="hr2">
+    <div class="location-info">
+        <p id="footercompanyaddress" class="footercompanyaddressen"></p>
+        <p id="footercompanyaddress2" class="footercompanyaddressen2"></p>
+    </div>
+    <hr class="hr3">
+    <p id="copyright" class="copyright copyrighten" style="font-size: 13px;">&copy; 2024 MechanicPioneer</p>
+</footer>
+
+<!-- 日夜变换/中英转换 -->
+<script type="text/javascript" src="js/productlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MechanicPioneer</title>
+<link rel="shortcut icon" href="image/logotitle.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/dropdown.css">
+<link rel="stylesheet" href="css/lunbuo.css">
+<link rel="stylesheet" href="css/product.css">
+<link rel="stylesheet" href="css/robotic.css">
+<link rel="stylesheet" href="css/backtotop.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/languagechange.css">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .lightbody {
+        font-family: "Gill Sans", sans-serif;
+        background-color: #fdfdfd;
+        transition: all 0.5s;
+    }
+    .darkbody {
+        font-family: "Gill Sans", sans-serif;
+        background-color: #717171;
+        transition: all 0.5s;
+    }
+
+    .home {
+        padding: 20px;
+        text-align: center;
+        width: 1644px;
+        position: relative;
+        height: 150px;
+    }
+    .light-home{
+        background-color: #ececec;
+        color: #2e2e2e;
+        transition: all 0.5s;
+    }
+    .dark-home{
+        background-color: #676767;
+        color: #ececec;
+        transition: all 0.5s;
+    }
+
+    .first-name-size{
+        height: 104px;
+        width: 70%;
+        position: absolute;
+        left: 30%;
+    }
+    .logo1 {
+        position: absolute;  
+        top: -25px; 
+        left: -3.5%;
+        height: 100px; 
+        width: 100px; 
+    }
+    .logo1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo2 {
+        position: absolute; 
+        top: -25px; 
+        left: -3.5%;
+        height: 100px; 
+        width: 100px; 
+    }
+    .logo2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .light-logo1{
+        opacity: 1;
+        transition: all 0.6s;
+    }
+    .light-logo2{
+        opacity: 0;
+        transition: all 0.6s;
+    }
+    .dark-logo1{
+        opacity: 0;
+        transition: all 0.6s;
+    }
+    .dark-logo2{
+        opacity: 1;
+        transition: all 0.6s;
+    }
+
+    section {
+        padding: 0; 
+        margin: 0; 
+        border-radius: 0; 
+        overflow: hidden; 
+        
+    }
+
+    h1, h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    /* .main-image { 
+        width: 100%;
+        max-height: 540px;
+        object-fit: cover;
+    }*/
+
+    a{
+        text-decoration: none;
+    }
+
+    #jiuji{
+        color:rgba(0,0,0,0);
+    }
+
+    /* #backtotop{
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    } */
+
+</style>
+</head>
+
+<body id="body" class="body lightbody"> 
+    
+<header id="home" class="home light-home">
+    <section id="jiuji">
+        <h3>yincang</h3>
+    </section>
+    <div class="first-name-size">
+        <div>
+            <b id="firstnameen1" class="firstname1 firstnameen1">&nbsp;&nbsp;&nbsp;&nbsp;</b>
+        </div>
+        <div class="logo1 light-logo1" id="logosun">
+            <img src="image/logo-black.png" alt="">
+        </div>
+        <div class="logo2 light-logo2" id="logomoon">
+            <img src="image/logo.png" alt="">
+        </div>
+    </div>
+</header>
+
+<nav id="navbar" class="navbar light-navbar">
+    <div class="menu-icon"><img src="image/1.png" alt=""></div>
+    <div class="switch2 sun2" id="switchmoon">
+        <img src="image/moon.png" alt="">
+    </div>
+    <div class="switch1 sun1" id="switchsun">
+        <img src="image/sun.png" alt="">
+    </div>
+    <div class="switch4 languagelight1" id="languagelight">
+        <img src="image/languagelight.png" alt="">
+    </div>
+    <div class="switch3 languagelight2" id="languagedark" onclick="changeLanguage()">
+        <img src="image/languagedark.png" alt="">
+    </div>
+
+    <ul>
+        <li><a id="dropdownhome" class="dropdownhomeen" href="web.html#home"></a></li>
+    <li class="dropdown">
+        <a id="roboticarmproducts" class="roboticarmproductsen" href="web.html#robotic-location"></a>
+        <div id="dropdown-contentwhite" class="dropdown-contentwhite light-contentwhite">
+            <a href="product.html">Loki 1</a>
+            <a href="product.html">Thor</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a id="productshowcasevideos" class="productshowcasevideosen" href="product.html#video"></a>
+        <div id="dropdown-contentwhite2" class="dropdown-contentwhite2 light-contentwhite2">
+            <a href="product.html#video">Loki 1</a>
+            <a href="product.html#video">Thor</a>
+        </div>
+    </li>
+    <li><a id="designphilosophy" class="designphilosophyen" href="web.html#Design"></a></li>
+    <li><a id="aboutuslanguage" class="aboutuslanguageen" href="contect.html"></a></li>
+    </ul>
+</nav>
+
+<script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navUl = document.querySelector('nav ul');
+
+    menuIcon.addEventListener('click', () => {
+        navUl.classList.toggle('open');
+    });
+    
+    window.addEventListener('scroll', function() {
+    var header = document.querySelector('header');
+    var nav = document.getElementById('navbar');
+    if (window.scrollY > header.clientHeight) {
+        nav.classList.add('fixed');
+    } else {
+        nav.classList.remove('fixed');
+    }
+});
+</script>
+
+<!--  
+<div class="slidershow middle">
+    <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        
+        <div class="slide" s1>
+            <img src="image/1.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="image/3.jpg" alt="">
+        </div>
+        
+    </div>
+    <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+       
+    </div>
+</div>-->
+<div id="banner">
+    <ul id="imglist" class="imglist">
+        <li><img id="imglist1" src="image/img/1yong.jpg" alt=""></li>
+        <li><img id="imglist2" src="image/lunbuoimg/2yong.jpg" alt=""></li>
+        <li><img id="imglist3" src="image/lunimg/1yong.jpg" alt=""></li>
+    </ul>
+    <ul id="icolist">
+        <li>1</li>
+        <li>2</li>
+    </ul>
+</div>
+<script>
+    var esico=document.getElementById('icolist').getElementsByTagName('li');
+    var eicolist=document.querySelector('#icolist');
+    var eimglist=document.querySelector('#imglist');
+    var eimgwidth=document.getElementById('imglist').getElementsByTagName('img');
+    var left=0; 
+    var timer;
+    run();
+    function run(){
+        if (left<= -3280){
+            left=0;
+        }
+        var m=Math.floor(-left/1640);
+        imglist.style.marginLeft= left+'px';
+        var n= (left % 1640 == 0) ? n=2000 :n=10;
+        left -= 10;
+        timer = setTimeout(run,n);
+        icochange(m);
+    }
+    function imgchange(n){
+        let lt=-(n*1640);
+        imglist.style.marginLeft=lt+'px';
+        left=lt;
+    }
+    function icochange(m) {
+        for (let index = 0;index<esico.length;index++){
+            esico[index].style.backgroundColor='';
+        }
+        if(m<esico.length){
+            esico[m].style.backgroundColor='white';
+        }
+    }
+    eicolist.onclick = function(){
+        var tg=event.target;
+        let ico=tg.innerHTML-1;
+        imgchange(ico);
+        icochange(ico);
+    }
+    eimglist.onmouseover=function(){
+        clearTimeout(timer);
+    }
+    eimglist.onmouseout=function(){
+        run();
+    }
+</script>
+
+<!-- <section id="jiuji">
+    <h1>yincang</h1>
+</section>    占位 -->
+
+<section id="Product1">
+    <div id="robotic" class="robotic-container lightrobotic">
+        <div class="robotic-image-products" ><img id="produxtld1" src="image/produxt1/produxt1.jpg" alt="Image"></div>
+        <div class="robotic-text">
+            <p id="robotic-location" class="robotic-location roboticlocationen"><b>Loki 1<br></b></p>
+            <p id="robotic-text-location" class="robotic-text-location robotictextlocationen"></p>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="jiuji">
+    <h1>-</h1>
+</section>    占位 -->
+
+<section id="Design">
+    <div id="content" class="content lightcontent">
+        <div id="contentitem" class="content-item lightitem">
+            <p id="contentitemtexttitle1" class="content-item-texttitle contentitemtexttitleen1"></p>
+            <p id="contentitemtext1" class="content-item-text contentitemtexten1">&nbsp;&nbsp;&nbsp;</p>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <img src="image/Innovation.jpg" alt="Product 1">
+            <div id="triangle1" class="triangle lighttriangle1" style="left: 10px; bottom: 50%; transform: translateX(-50%);"></div>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <img src="image/Intelligent.jpg" alt="Product 2">
+            <div id="triangle2" class="triangle2 lighttriangle2" style="right: -10px; top: 50%; transform: translateX(-50%);"></div>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <p id="contentitemtexttitle2" class="content-item-texttitle contentitemtexttitleen2"></p>
+            <p id="contentitemtext2" class="content-item-text contentitemtexten2">&nbsp;&nbsp;&nbsp;</p>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <p id="contentitemtexttitle3" class="content-item-texttitle contentitemtexttitleen3"></p>
+            <p id="contentitemtext3" class="content-item-text contentitemtexten3">&nbsp;&nbsp;&nbsp;</p>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <img src="image/safty.jpg" alt="Product 3">
+            <div id="triangle3" class="triangle3 lighttriangle3" style="left: -10px; bottom: 50%; transform: translateX(50%);"></div>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <img src="image/Environmentally friendly.jpg" alt="Product 4">
+            <div id="triangle4" class="triangle4 lighttriangle4" style="right: 10px; top: 50%; transform: translateX(50%);"></div>
+        </div>
+        <div id="contentitem" class="content-item lightitem">
+            <p id="contentitemtexttitle4" class="content-item-texttitle contentitemtexttitleen4"></p>
+            <p id="contentitemtext4" class="content-item-text contentitemtexten4">&nbsp;&nbsp;&nbsp;</p>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="video">
+    <h2>产品展示视频</h2>
+    <div class="video-placeholder" id="video1"></div>
+    <p>在这里展示MechanicPioneer的机械臂产品实际运行的视频。</p>
+</section> -->
+
+<section id="jiuji">
+    <h1>yincang</h1>
+</section>    
+<!-- occupy -->
+
+<div id="back-to-top" onclick="scrollToTop()">
+    <img src="image/backtotop.png" alt="">
+</div>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            var button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        }
+</script>
+
+<section id="jiuji">
+    <h2>yincang</h2>
+</section>
+
+<footer id="footer" class="footer lightfooter">
+    
+    <div class="company-info">
+        <p id="footermechanicpioneer" class="footermechanicpioneeren"></p>
+    </div>
+    <hr class="hr1">
+    <div>
+        <img id="lightinfo1" class="image-info1 lightinfo1" src="image/logo-black.png" alt="Company Logo">
+    </div>
+    <div>
+        <img id="lightinfo2" class="image-info2 lightinfo2" src="image/logo.png" alt="Company Logo">
+    </div>
+    <div class="contact-info">
+        <p id="footercompanyemail" class="footercompanyemailen"></p>
+        <p style="font-size: 14px;">13mp@mechanicPioneer.com</p>
+        <p id="footercompanyphone" class="footercompanyphoneen"></p>
+        <p style="font-size: 14px;">+86 110 120 4321</p>
+    </div>
+    <hr class="hr2">
+    <div class="location-info">
+        <p id="footercompanyaddress" class="footercompanyaddressen"></p>
+        <p id="footercompanyaddress2" class="footercompanyaddressen2"></p>
+    </div>
+    <hr class="hr3">
+    <p id="copyright" class="copyright copyrighten" style="font-size: 13px;">&copy; 2024 MechanicPioneer</p>
+</footer>
+
+<!-- 日夜变换/中英转换 -->
+<script type="text/javascript" src="js/weblight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.contect-aboutus-container {
+    height: 550px;
+    width: 95%;
+    min-width: 1000px;
+    position: relative;
+}
+.light-contectaboutuscontainer{
+    color: #141414;
+    transition: all 0.6s;
+}
+.dark-contectaboutuscontainer{
+    color: #ececec;
+    transition: all 0.6s;
+}
+
+.contect-aboutus-title{
+    font-size: 50px;
+    position: absolute;
+    left: 45%;
+    top: 16%;
+}
+.contect-aboutus-text{
+    font-size: 25px;
+    position: absolute;
+    left: 7%;
+    top: 32%;
+}

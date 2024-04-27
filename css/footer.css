@@ -1,0 +1,121 @@
+.footer {
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 80px;
+    width: 100%;
+    min-width: 1050px;
+    height: 450px;
+    display: flex;
+
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+.lightfooter{
+    background-color: #bcbdc7;
+    color: #333333;
+    transition: all 0.5s;
+}
+.darkfooter{
+    background-color: #333333;
+    color: #bcbdc7;
+    transition: all 0.5s;
+}
+
+.lightinfo1 {
+    position: absolute;
+    left: 15.7%;
+    top: 6.5%;
+    width: 45px; 
+    height: 45px; 
+    margin-right: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.lightinfo2 {
+    position: absolute;
+    left: 15.7%;
+    top: 6.5%;
+    width: 45px; 
+    height: 45px;
+    margin-right: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.darkinfo1 {
+    position: absolute;
+    left: 15.7%;
+    top: 6.5%;
+    width: 45px; 
+    height: 45px;
+    margin-right: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.darkinfo2 {
+    position: absolute;
+    left: 15.7%;
+    top: 6.5%;
+    width: 45px; 
+    height: 45px;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.company-info{
+    position: absolute;
+    left: 19%;
+    top: 9.6%;
+}
+.contact-info {
+    position: absolute;
+    left: 19%;
+    top: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.location-info{
+    position: absolute;
+    left: 49%;
+    right: 30%;
+    top: 29%;
+}
+footer p {
+    margin: 5px 0;
+}
+.copyright {
+    position: absolute;
+    left: 18.8%;
+    bottom: 9%;
+}
+.hr1{
+    height: 2px;
+    background-color: #dfdfdf;
+    border: none;
+    position: absolute;
+    top: 14.5%;
+    left: 36.8%;
+    width: 51%;
+}
+.hr2{
+    height: 25%;
+    background-color: #dfdfdf;
+    border: none;
+    position: absolute;
+    top: 31.5%;
+    left: 39%;
+    width: 2px;
+}
+.hr3{
+    height: 2px;
+    background-color: #dfdfdf;
+    border: none;
+    position: absolute;
+    bottom: 27%;
+    left: 18.9%;
+    width: 69%;
+}

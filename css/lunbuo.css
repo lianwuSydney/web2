@@ -1,0 +1,41 @@
+ body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#banner{
+    width: 1644px;
+    height: 661px;
+    /* border: 2px solid #111111; */
+    position: relative;
+    overflow: hidden;
+}
+.imglist{
+    width: 300%;
+    height: 550px;
+}
+.imglist img{
+    width: 1640px;
+    height: auto;
+}
+.imglist li{
+    float: left;
+}
+#icolist{
+    position: absolute;
+    right: 45%;
+    bottom: 5%;
+}
+#icolist li{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    margin: 6px; 
+    text-align: center;
+    line-height: 5px;
+    color:rgba(0,0,0,0);
+    float: left;
+    cursor: pointer;
+}
+

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="shortcut icon" href="image/logotitle.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/contectaboutus.css">
+    <link rel="stylesheet" href="css/member.css">
+    <link rel="stylesheet" href="css/backtotop.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/languagechange.css">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+    
+        .lightbody {
+        font-family: "Gill Sans", sans-serif;
+        background-color: #fdfdfd;
+        transition: all 0.5s;
+    }
+    .darkbody {
+        font-family: "Gill Sans", sans-serif;
+        background-color: #717171;
+        transition: all 0.5s;
+    }
+
+    .lightheader {
+        background-color: #ececec;
+        color: #fff;
+        padding: 0.1px;
+        text-align: center;
+        position: relative; 
+        transition: all 0.5s;
+        }
+        .darkheader {
+        background-color: #676767;
+        color: #fff;
+        padding: 0.1px;
+        text-align: center;
+        position: relative; 
+        transition: all 0.5s;
+        }
+
+    section {
+        padding: 0; 
+        margin: 0; 
+        border-radius: 0; 
+        overflow: hidden; 
+        
+    }
+    h1, h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    .main-image1 { 
+        width: 100%;
+        max-height: 675px;
+        object-fit: cover;
+        position: absolute;
+        left: 0%;
+        top: -7%;
+    }
+    .light-mainimage1{
+        opacity: 1;
+        transition:all 0.6s;
+    }
+    .dark-mainimage1{
+        opacity: 0;
+        transition:all 0.6s;
+    }
+
+    .main-image2 { 
+        width: 100%;
+        max-height: 675px;
+        object-fit: cover;
+        position: absolute;
+        left: 0%;
+        top: -7%;
+    }
+    .light-mainimage2{
+        opacity: 0;
+        transition:all 0.6s;
+    }
+    .dark-mainimage2{
+        opacity: 1;
+        transition:all 0.6s;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    #jiuji{
+        color:rgba(0,0,0,0);
+    }
+
+    .contect-first-container{
+        display: flex;
+        align-items: center;
+        height: 630px; 
+        width: 100%;
+        background-color: #ececec; 
+        position: relative;
+        top: 0%;
+        left: 0%;
+        overflow: hidden;
+    }
+    .light-contectfirsttexttitle{
+        color: #141414;
+        transition: all 0.6s;
+    }
+    .dark-contectfirsttexttitle{
+        color: #ececec;
+        transition: all 0.6s;
+    }
+    </style>
+</head>
+
+<body id="body" class="body lightbody"> 
+    <header id="header" class="header lightheader">
+        <p style="color: #ececec;font-size: 1px;">1</p>
+    </header>
+
+    <nav id="navbar" class="navbar light-navbar">
+        <div class="menu-icon"><img src="image/1.png" alt=""></div>
+        <div class="switch2 sun2" id="switchmoon">
+            <img src="image/moon.png" alt="">
+        </div>
+        <div class="switch1 sun1" id="switchsun">
+            <img src="image/sun.png" alt="">
+        </div>
+        <div class="switch4 languagelight1" id="languagelight">
+            <img src="image/languagelight.png" alt="">
+        </div>
+        <div class="switch3 languagelight2" id="languagedark" onclick="changeLanguage()">
+            <img src="image/languagedark.png" alt="">
+        </div>
+    
+        <ul>
+            <li><a id="dropdownhome" class="dropdownhomeen" href="web.html#home"></a></li>
+        <li class="dropdown">
+            <a id="roboticarmproducts" class="roboticarmproductsen" href="web.html#robotic-location"></a>
+            <div id="dropdown-contentwhite" class="dropdown-contentwhite light-contentwhite">
+                <a href="product.html">Loki 1</a>
+                <a href="product.html">Thor</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a id="productshowcasevideos" class="productshowcasevideosen" href="product.html#video"></a>
+            <div id="dropdown-contentwhite2" class="dropdown-contentwhite2 light-contentwhite2">
+                <a href="product.html#video">Loki 1</a>
+                <a href="product.html#video">Thor</a>
+            </div>
+        </li>
+        <li><a id="designphilosophy" class="designphilosophyen" href="web.html#Design"></a></li>
+        <li><a id="aboutuslanguage" class="aboutuslanguageen" href="contect.html"></a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navUl = document.querySelector('nav ul');
+    
+        menuIcon.addEventListener('click', () => {
+            navUl.classList.toggle('open');
+        });
+        
+        window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        var nav = document.getElementById('navbar');
+        if (window.scrollY > header.clientHeight) {
+            nav.classList.add('fixed');
+        } else {
+            nav.classList.remove('fixed');
+        }
+    });
+    </script>
+
+    <div class="contect-first-container">
+        <div>
+            <img id="mainimage1" class="main-image1 light-mainimage1" src="image/contect1.jpg" alt="Image">
+        </div>
+        <div>
+            <img id="mainimage2" class="main-image2 light-mainimage2" src="image/contect2.jpg" alt="Image">
+        </div>
+        <div id="contectfirsttexttitle" class="contect-first-texttitle light-contectfirsttexttitle">
+            <p id="aboutustitle1" class="aboutustitleen1"></p>
+        </div>
+    </div>
+
+    <section>
+        <div id="contectaboutuscontainer" class="contect-aboutus-container light-contectaboutuscontainer">
+            <p id="contectaboutustitle" class="contect-aboutus-title contectaboutustitleen"></p>
+            <p id="contectaboutustext" class="contect-aboutus-text contectaboutustexten">&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+    </section>
+
+    <div id="membertitle" class="member-title light-membertitle">
+        <p id="members1" class="membersen"></p>
+    </div>
+    <div id="membercontainer1" class="member-container1 light-membercontainer1">
+        <div id="membercard1" class="member-card1 light-membercard1">
+            <div class="member-photo">
+                <img src="image/ren1.jpg">
+            </div>
+            <h1 id="member11" class="member11en"></h1>
+            <h2 id="member12" class="member12en">
+                <hr class="member-container-hr">
+                <p id="member13" class="member13en"><br></p>
+            </h2>
+        </div>
+        <div id="membercard12" class="member-card1 light-membercard12">
+            <div class="member-photo">
+                <img src="image/ren2.jpg">
+            </div>
+            <h1 id="member21" class="member21en"></h1>
+            <h2 id="member22" class="member22en">
+                <hr class="member-container-hr">
+                <p id="member23" class="member23en"><br></p>
+            </h2>
+        </div>
+        <div id="membercard13" class="member-card1 light-membercard13">
+            <div class="member-photo">
+                <img src="image/ren3.jpg">
+            </div>
+            <h1 id="member31" class="member31en"></h1>
+            <h2 id="member32" class="member32en">
+                <hr class="member-container-hr">
+                <p id="member33" class="member33en"><br></p>
+            </h2>
+        </div>
+        <div id="membercard14" class="member-card1 light-membercard14">
+            <div class="member-photo">
+                <img src="image/ren4.jpg">
+            </div>
+            <h1 id="member41" class="member41en"></h1>
+            <h2 id="member42" class="member42en">
+                <hr class="member-container-hr">
+                <p id="member43" class="member43en"><br></p>
+            </h2>
+        </div>
+    </div>
+
+    <div id="membercontainer2" class="member-container2 light-membercontainer2">
+        <div id="membercard2" class="member-card2 light-membercard2">
+            <div class="member-photo">
+                <img src="image/ren5.png">
+            </div>
+            <h1 id="member51" class="member51en"></h1>
+            <h2 id="member52" class="member52en" style="font-size: 15px;">
+                <hr class="member-container-hr">
+                <p id="member53" class="member53en"><br></p>
+            </h2>
+        </div>
+        <div id="membercard22" class="member-card2 light-membercard22">
+            <div class="member-photo">
+                <img src="image/ren6.png">
+            </div>
+            <h1 id="member61" class="member61en"></h1>
+            <h2 id="member62" class="member62en">
+                <hr class="member-container-hr">
+                <p id="member63" class="member63en"><br></p>
+            </h2>
+        </div>
+        <div id="membercard23" class="member-card2 light-membercard23">
+            <div class="member-photo">
+                <img src="image/ren7.jpg">
+            </div>
+            <h1 id="member71" class="member71en"></h1>
+            <h2 id="member72" class="member72en">
+                <hr class="member-container-hr">
+                <p id="member73" class="member73en"><br></p>
+            </h2>
+        </div>
+    </div>
+
+<div id="back-to-top" onclick="scrollToTop()">
+    <img src="image/backtotop.png" alt="">
+</div>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            var button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        }
+</script>
+
+<section id="jiuji">
+    <h2>yincang</h2>
+</section>
+
+<footer id="footer" class="footer lightfooter">
+    
+    <div class="company-info">
+        <p id="footermechanicpioneer" class="footermechanicpioneeren"></p>
+    </div>
+    <hr class="hr1">
+    <div>
+        <img id="lightinfo1" class="image-info1 lightinfo1" src="image/logo-black.png" alt="Company Logo">
+    </div>
+    <div>
+        <img id="lightinfo2" class="image-info2 lightinfo2" src="image/logo.png" alt="Company Logo">
+    </div>
+    <div class="contact-info">
+        <p id="footercompanyemail" class="footercompanyemailen"></p>
+        <p style="font-size: 14px;">13mp@mechanicPioneer.com</p>
+        <p id="footercompanyphone" class="footercompanyphoneen"></p>
+        <p style="font-size: 14px;">+86 110 120 4321</p>
+    </div>
+    <hr class="hr2">
+    <div class="location-info">
+        <p id="footercompanyaddress" class="footercompanyaddressen"></p>
+        <p id="footercompanyaddress2" class="footercompanyaddressen2"></p>
+    </div>
+    <hr class="hr3">
+    <p id="copyright" class="copyright copyrighten" style="font-size: 13px;">&copy; 2024 MechanicPioneer</p>
+</footer>
+
+<!-- 日夜变换/中英转换 -->
+<script type="text/javascript" src="js/contectlight.js"></script>
+
+</body>
+</html>

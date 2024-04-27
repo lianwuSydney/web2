@@ -1,0 +1,56 @@
+.robotic-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    min-width: 1200px;
+    height: 850px;
+    position: relative;
+}
+.lightrobotic div p{
+    color: #212121;
+    transition: all 0.5s;
+}
+.darkrobotic div p{
+    color: #f5f5f5;
+    transition: all 0.5s;
+}
+
+.robotic-text {
+    flex: 1;
+    position: absolute;
+    right: -70%;
+    left: 120%;
+    top: 50%;
+    bottom: 5%;
+    font-size: 20px;
+} 
+
+#robotic-location{
+    position: relative;
+    right: 580px;
+    /* left: 870px; */
+    bottom: 230px;
+    /* top:820px;  */
+    font-size: 40px;
+}
+
+#robotic-text-location{
+    position: relative;
+    right: 580px;
+    /* left: -540px;  */
+    /* top: 140px; */
+    bottom: 210px;
+    font-size: 23px;
+} 
+
+.robotic-image-products {
+    padding: 0; 
+    margin: 0;
+    position: absolute;
+    height: 869px;
+    width: 600px;
+    left: 13%;
+    overflow: hidden;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}

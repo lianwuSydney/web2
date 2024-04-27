@@ -1,0 +1,630 @@
+/* web */
+.firstnameen1::after{
+    font-size: 4.2rem; /*65px*/
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    left: 6%;
+    content: "MechanicPioneer";
+}
+.firstnamech1::after{
+    font-size: 4.5rem; /*65px*/
+    font-family: "华文中宋", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: -13%;
+    left: 10.5%;
+    content: "机 械 先 锋";
+}
+
+.dropdownhomeen::after{
+    content: "Home";
+    transition: all 0.1s;
+}
+.dropdownhomech::after{
+    font-size: 20px;
+    position: relative;
+    top: -5%;
+    content: "首页";
+    transition: all 0.1s;
+}
+.roboticarmproductsen::after{
+    content: "Robotic Arm Products";
+    transition: all 0.1s;
+}
+.roboticarmproductsch::after{
+    font-size: 20px;
+    position: relative;
+    top: -5%;
+    content: "机械臂产品";
+    transition: all 0.1s;
+}
+.productshowcasevideosen::after{
+    content: "Product Showcase Videos";
+    transition: all 0.1s;
+}
+.productshowcasevideosch::after{
+    font-size: 20px;
+    position: relative;
+    top: -5%;
+    content: "机械臂产品视频";
+    transition: all 0.1s;
+}
+.designphilosophyen::after{
+    content: "Design Philosophy";
+    transition: all 0.1s;
+}
+.designphilosophych::after{
+    font-size: 20px;
+    position: relative;
+    top: -5%;
+    content: "设计理念";
+    transition: all 0.1s;
+}
+.aboutuslanguageen::after{
+    content: "About Us";
+    transition: all 0.1s;
+}
+.aboutuslanguagech::after{
+    font-size: 20px;
+    position: relative;
+    top: -5%;
+    content: "关于我们";
+    transition: all 0.1s;
+}
+
+/* robotic */
+.roboticlocationen::after{
+    content: "Robotic Arm Products";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.roboticlocationch::after{
+    content: "机械臂";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.robotictextlocationen::after{
+    content: "Introducing our innovative robotic arm designed for efficient and precise manipulation of small objects. With cutting-edge technology and advanced engineering, our robotic arm is revolutionizing automated handling tasks in various industries.";
+    transition: all 0.1s;
+}
+.robotictextlocationch::after{
+    font-size: 26px; 
+    content: "创新型机械臂，专为高效、精确地操控小型物体而设计。凭借领先的技术和先进的工程技术，我们的机械臂正在彻底改变各个行业中的自动化处理任务。";
+    transition: all 0.1s;
+}
+
+/* design */
+.contentitemtexttitleen1::after{
+    content: "Innovation";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitlech1::after{
+    content: "创 新";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitleen2::after{
+    content: "Intelligent";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitlech2::after{
+    content: "智 能";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitleen3::after{
+    content: "Safety";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitlech3::after{
+    content: "安 全";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitleen4::after{
+    content: "Environmentally friendly";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexttitlech4::after{
+    content: "环 保";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contentitemtexten1::after{
+    content: "One of the key features of our robotic arm is its mobility. With a sleek and compact design, it can be easily integrated into existing production lines or workspaces. Its agile movements and adjustable reach ensure optimal positioning and flexibility in handling tasks. Additionally, our robotic arm is equipped with intelligent software that enables seamless programming and control, allowing users to customize operations and adapt to changing requirements effortlessly.";
+    transition: all 0.1s;
+}
+.contentitemtextch1::after{
+    content: " 我们机械臂的一个关键特点是其灵活性。采用流线型、紧凑的设计，它可以轻松地集成到现有的生产线或工作空间中。其灵活的动作和可调节的延伸范围确保了在处理任务时的最佳定位和灵活性。此外，我们的机械臂配备了智能软件，实现了无缝编程和控制，使用户可以轻松定制操作并适应不断变化的需求。";
+    font-size: 20px;
+    transition: all 0.1s;
+}
+.contentitemtexten2::after{
+    content: "At the heart of our design philosophy is versatility and adaptability. Our robotic arm is equipped with state-of-the-art sensors and actuators, allowing it to accurately detect, grasp, and manipulate small square objects with ease. Whether it's in manufacturing, logistics, or research settings, our robotic arm excels at tasks such as picking, placing, sorting, and transporting small blocks with unmatched precision.";
+    transition: all 0.1s;
+}
+.contentitemtextch2::after{
+    content: " 我们设计理念的核心是多功能性和适应性。我们的机械臂配备了最先进的传感器和执行器，使其能够轻松准确地检测、抓取和操控小方块物体。无论是在制造、物流还是研究环境中，我们的机械臂都擅长于拾取、放置、排序和运输小块物体，具有无与伦比的精度。";
+    font-size: 20px;
+    transition: all 0.1s;
+}
+.contentitemtexten3::after{
+    content: "Safety is paramount in our design. Our robotic arm is equipped with multiple safety features, including collision detection sensors and emergency stop mechanisms, to ensure safe operation in dynamic environments.";
+    transition: all 0.1s;
+}
+.contentitemtextch3::after{
+    content: " 在我们的设计中，安全至上。我们的机械臂配备了多种安全功能，包括碰撞检测传感器和紧急停止机制，以确保在动态环境中的安全运行。";
+    font-size: 20px;
+    transition: all 0.1s;
+}
+.contentitemtexten4::after{
+    content: "Our robotic arm is crafted using recycled materials, showcasing our commitment to sustainability and environmental responsibility. By utilizing recycled materials in its production, we significantly reduce our carbon footprint and minimize waste generation. Not only does this contribute to conserving natural resources, but it also helps mitigate the impact of manufacturing on the environment. With a focus on eco-friendly practices, our robotic arm not only delivers exceptional performance but also embodies our dedication to creating a greener future. Join us in embracing innovation while protecting the planet with our environmentally conscious robotic arm solution.";
+    transition: all 0.1s;
+}
+.contentitemtextch4::after{
+    content: " 我们的机械臂采用回收材料制造，展示了我们对可持续发展和环保责任的承诺。通过在生产过程中使用回收材料，我们显著减少了碳足迹，减少了废物产生。这不仅有助于保护自然资源，还有助于减轻制造对环境的影响。我们的机械臂注重环保实践，不仅提供卓越性能，还体现了我们致力于创造更绿色未来的承诺。加入我们，拥抱创新，保护地球，选择我们环保意识的机械臂解决方案。";
+    font-size: 20px;
+    transition: all 0.1s;
+}
+
+.footermechanicpioneeren::after{
+    content: "MechanicPioneer";
+    font-size: 20px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footermechanicpioneerch::after{
+    content: "机 械 先 锋";
+    font-size: 20px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyemailen::after{
+    content: "Company Email";
+    font-size: 15px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyemailch::after{
+    content: "公司邮箱";
+    font-size: 15px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyphoneen::after{
+    content: "Company Phone";
+    font-size: 15px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyphonech::after{
+    content: "公司电话";
+    font-size: 15px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyaddressen::after{
+    content: "Company Address";
+    font-size: 16px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyaddressch::after{
+    content: "公司地址";
+    font-size: 16px;
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.footercompanyaddressen2::after{
+    content: "266 West Xifeng Road, Chang'an District, Xi'an City, Shaanxi Province, South Campus of Xi'an University of Electronic Science and Technology";
+    font-size: 14px;
+    transition: all 0.1s;
+}
+.footercompanyaddressch2::after{
+    content: "陕西省西安市长安区西沣路266号西安电子科技大学南校区";
+    font-size: 14px;
+    transition: all 0.1s;
+}
+.copyrighten::before{
+    content: "All rights reserved ";
+    font-size: 13px;
+    transition: all 0.1s;
+}
+.copyrightch::before{
+    content: "权利所有";
+    font-size: 13px;
+    transition: all 0.1s;
+}
+
+
+
+/* product */
+.intelligentroboticarmen::after{
+    content: "Intelligent robotic arm";
+    font-size: 30px;
+    transition: all 0.1s;
+}
+.intelligentroboticarmch::after{
+    content: "智能机械臂";
+    font-size: 38px;
+    transition: all 0.1s;
+}
+.product1locationen::after{
+    content: "Robotic Arm Products";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.product1locationch::after{
+    content: "智能机械臂";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.product1textlocationen::after{
+    content: "At present, our company mainly operates a product: intelligent robotic arm trolley. Our trolley integrates automatic route searching and grabbing functions. It can solve the problem of short-distance transportation in current scenarios such as warehousing and waste recycling, reducing labor costs and improving efficiency in intelligent factories. The intelligent robotic arm trolley can travel along the track to the designated position of the items, use the robotic arm to grab them, and then intelligently patrol along the track to the appropriate placement position. The high accuracy rate greatly addresses the transportation shortage in intelligent factories.";
+    position: absolute;
+    top: 26%;
+    font-size: 20px;
+    transition: all 0.1s;
+}
+.product1textlocationch::after{
+    content: "目前，我们公司主要经营一款产品：智能机械臂小车，我们的小车集成了自动搜索线路和抓取功能。能够解决当前仓储和垃圾回收等场景中的短距离运输问题，可以降低智能工厂中的人力成本并提高效率。智能机械臂小车可以沿着轨道行走到物品的设定位置，使用机械臂抓取，然后智能巡逻沿着轨道到合适的放置位置。高精度率极大地弥补了智能工厂运输不足的问题。";
+    position: absolute;
+    top: 30%;
+    font-size: 22px;
+    transition: all 0.1s;
+}
+.product1introtxttitleen1::after{
+    content: "Convenient";
+    transition: all 0.1s;
+}
+.product1introtxttitlech1::after{
+    content: "便 捷 性";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.product1introtxten11::after{
+    content: "Hourly Rapid Line Changeover";
+    transition: all 0.1s;
+}
+.product1introtxtch11::after{
+    content: "每小时快速换线";
+    transition: all 0.1s;
+}
+.product1introtxten12::after{
+    content: "Utilizing a modular design with quick-change modules and a flexible mobile chassis, we establish a swift assembly mode.";
+    transition: all 0.1s;
+}
+.product1introtxtch12::after{
+    content: "利用具有快速更换模块和灵活移动底盘的模块化设计，我们建立了快速组装模式。";
+    transition: all 0.1s;
+}
+.product1introtxten13::after{
+    content: "Ease of Programming";
+    transition: all 0.1s;
+}
+.product1introtxtch13::after{
+    content: "便捷设置";
+    transition: all 0.1s;
+}
+.product1introtxten14::after{
+    content: "Our scenario-based encapsulation of force control and visual algorithms, coupled with a point-and-click operational mode and 3D-based operation guidance.";
+    transition: all 0.1s;
+}
+.product1introtxtch14::after{
+    content: "我们基于场景的力控制和视觉算法封装，结合点对点操作模式和基于3D的操作指导。";
+    transition: all 0.1s;
+}
+.product1introtxten15::after{
+    content: "Flexibility";
+    transition: all 0.1s;
+}
+.product1introtxtch15::after{
+    content: "灵活性";
+    transition: all 0.1s;
+}
+.product1introtxten16::after{
+    content: "Guided by material analysis, our flexible design encompasses hardware and software flexibility, ensuring compatibility between visual and force control algorithms.";
+    transition: all 0.1s;
+}
+.product1introtxtch16::after{
+    content: "在材料分析的指导下，我们的灵活设计涵盖了硬件和软件的灵活性，确保了视觉和力控制算法之间的兼容性。";
+    transition: all 0.1s;
+}
+.product1introtxttitleen2::after{
+    content: "High Reliability";
+    transition: all 0.1s;
+}
+.product1introtxttitlech2::after{
+    content: "高 可 靠 性";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.product1introtxten21::after{
+    content: "Our standardized, modular structural design enables extensive hardware reuse across different models of robotic workers. The Agile Core, serving as the central processing unit of the robot, collects production data for self-updating, ensuring high reliability of both hardware and software components.";
+    transition: all 0.1s;
+}
+.product1introtxtch21::after{
+    content: "我们标准化、模块化的结构设计使得不同型号的机器人工人之间能够广泛地重复使用硬件。灵活核心作为机器人的中央处理单元，收集生产数据进行自更新，确保硬件和软件组件的高可靠性。";
+    transition: all 0.1s;
+}
+.product1introtxttitleen3::after{
+    content: "Intelligent Management";
+    transition: all 0.1s;
+}
+.product1introtxttitlech3::after{
+    content: "智 能 管 理";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.product1introtxten31::after{
+    content: "Leveraging the application of big data and cloud computing technologies, and analyze data related to equipment, quality, and processes. This supports intelligent production, facilitating the transition from traditional experience-based decision-making models to data-driven intelligent production and management paradigms.";
+    transition: all 0.1s;
+}
+.product1introtxtch31::after{
+    content: "利用大数据和云计算技术，分析与设备、质量和工艺相关的数据。这支持智能生产，促进了从传统基于经验的决策模式向数据驱动的智能生产和管理范式的过渡。";
+    transition: all 0.1s;
+}
+
+
+
+/* about us */
+.aboutustitleen1::after{
+    content: "MechanicPioneer";
+    font-weight:bold;
+    position: absolute;
+    left: 18.5%;
+    top: 33%;
+    font-size: 120px;
+    transition: all 0.1s;
+}
+.aboutustitlech1::after{
+    content: "机 械 先 锋";
+    font-weight:bold;
+    position: absolute;
+    left: 27%;
+    top: 28%;
+    font-size: 150px;
+    transition: all 0.1s;
+}
+.contectaboutustitleen::after{
+    content: "About Us";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contectaboutustitlech::after{
+    content: "关 于 我 们";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.contectaboutustexten::after{
+    content: "Our company was founded in 2024. Our mission is to make machines serve everyone. To create a full-scene intelligent machinery in production and life, to serve the public life, and to create a comfortable living and working environment. Our vision is to bring all mankind intelligent, convenient, humane and brand new experience. We are committed to solving the pain points in life, and actively explore how to bring people a better experience, so that the robot more services in the smart home, smart industry, smart wearable. To achieve the goal of unity of scientific and technological innovation and commercial benefits. ";
+    transition: all 0.1s;
+}
+.contectaboutustextch::after{
+    content: "我们公司成立于2024年。我们的使命是让机器为所有人服务。我们致力于在生产和生活中打造全场景智能机械，为公众生活提供服务，并创造舒适的生活和工作环境。我们的愿景是为全人类带来智能、便捷、人性化和全新的体验。我们致力于解决生活中的痛点，并积极探索如何为人们带来更好的体验，使机器人在智能家居、智能工业和智能可穿戴领域提供更多服务。以实现科技创新与商业利益的统一目标。";
+    transition: all 0.1s;
+}
+.membersen::after{
+    content: "Members";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.membersch::after{
+    content: "成 员 介 绍";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member11en::after{
+    content: "Siyuan Cheng";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member11ch::after{
+    content: "程思源";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member12en::before{
+    content: "Robotic Arm Algorithm Engineer";
+    transition: all 0.1s;
+}
+.member12ch::before{
+    content: "机械臂算法工程师";
+    transition: all 0.1s;
+}
+.member13en::before{
+    content: "Siyuan Cheng, male, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member13ch::before{
+    content: "程思源, 男, 中国人";
+    transition: all 0.1s;
+}
+.member13ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
+.member21en::after{
+    content: "Tianyang Chen";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member21ch::after{
+    content: "陈天杨";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member22en::before{
+    content: "Mechanical Engineer";
+    transition: all 0.1s;
+}
+.member22ch::before{
+    content: "机械工程师";
+    transition: all 0.1s;
+}
+.member23en::before{
+    content: "Tianyang Chen, male, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member23ch::before{
+    content: "陈天杨, 男, 中国人";
+    transition: all 0.1s;
+}
+.member23ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
+.member31en::after{
+    content: "Huanzi Zhang";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member31ch::after{
+    content: "张洹梓";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member32en::before{
+    content: "Secretary";
+    transition: all 0.1s;
+}
+.member32ch::before{
+    content: "秘书";
+    transition: all 0.1s;
+}
+.member33en::before{
+    content: "Huanzi Zhang, male, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member33ch::before{
+    content: "张洹梓, 男, 中国人";
+    transition: all 0.1s;
+}
+.member33ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
+.member41en::after{
+    content: "Yijie Ma";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member41ch::after{
+    content: "马义杰";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member42en::before{
+    content: "Robotic Arm Algorithm Engineer";
+    transition: all 0.1s;
+}
+.member42ch::before{
+    content: "机械臂算法工程师";
+    transition: all 0.1s;
+}
+.member43en::before{
+    content: "Yijie Ma, male, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member43ch::before{
+    content: "马义杰, 男, 中国人";
+    transition: all 0.1s;
+}
+.member43ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
+.member51en::after{
+    content: "Hanyu Li";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member51ch::after{
+    content: "李涵宇";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member52en::before{
+    content: "Manager, Public Relations Officer, Mechanical Engineer";
+    transition: all 0.1s;
+}
+.member52ch::before{
+    content: "经理，公关，机械工程师";
+    transition: all 0.1s;
+}
+.member53en::before{
+    content: "Hanyu Li, male, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member53ch::before{
+    content: "李涵宇, 男, 中国人";
+    transition: all 0.1s;
+}
+.member53ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
+.member61en::after{
+    content: "Tianhui Tian";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member61ch::after{
+    content: "田天慧";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member62en::before{
+    content: "Mechanical Engineer";
+    transition: all 0.1s;
+}
+.member62ch::before{
+    content: "机械工程师";
+    transition: all 0.1s;
+}
+.member63en::before{
+    content: "Tianhui Tian, female, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member63ch::before{
+    content: "田天慧, 女, 中国人";
+    transition: all 0.1s;
+}
+.member63ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
+.member71en::after{
+    content: "Dongni Xie";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member71ch::after{
+    content: "谢东霓";
+    font-weight:bold;
+    transition: all 0.1s;
+}
+.member72en::before{
+    content: "Frontend Engineer";
+    transition: all 0.1s;
+}
+.member72ch::before{
+    content: "前端工程师";
+    transition: all 0.1s;
+}
+.member73en::before{
+    content: "Dongni Xie, female, Chinese, undergraduate student majoring in Communication Engineering at Xidian University.";
+    transition: all 0.1s;
+}
+.member73ch::before{
+    content: "谢东霓, 女, 中国人";
+    transition: all 0.1s;
+}
+.member73ch::after{
+    content: "就读于西安电子科技大学通信工程专业。";
+    transition: all 0.1s;
+}
